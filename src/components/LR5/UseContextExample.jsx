@@ -16,7 +16,7 @@ const UseContextExample = () => {
             {
                 history.map(el => <div className='mr-1' key={Math.random()}>{el},</div>)
             }
-            </div>
+            </div> 
         </div>
     )
 }
