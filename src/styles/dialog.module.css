@@ -1,0 +1,25 @@
+/* styles.css */
+
+.wrapper {
+    display: flex; 
+position: fixed; 
+top: 0;
+right: 0;
+bottom: 0;
+left: 0; 
+z-index: 999;
+justify-content: center; 
+align-items: center; 
+background-color: #F87171; 
+}
+
+.nested {
+    padding: 1rem; 
+border-radius: 0.25rem; 
+width: 16rem; 
+background-color: #ffffff; 
+transition-property: opacity;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 300ms; 
+box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
+}

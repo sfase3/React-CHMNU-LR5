@@ -1,0 +1,53 @@
+.lr4_wrapper {
+    background-color: rgb(251 191 36);
+    height: 500px;
+}
+
+.button_wrapper {
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
+    margin-left: 1rem; 
+}
+
+.hook_list {
+    display: flex; 
+align-items: flex-end; 
+height: 500px;
+}
+
+.alert-enter {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  .alert-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+  .alert-exit {
+    opacity: 1;
+  }
+  .alert-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 300ms, transform 300ms;
+  }
+
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}
